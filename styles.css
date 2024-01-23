@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border box;
+  font: lato;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav img {
+  margin: 10px;
+  height: 23px;
+}
+
+.selfcare {
+  padding-left: 90px;
+}
+
+.navegacao {
+  padding-right: 90px;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+}
+
+.banner img {
+  width: 99vw;
+  height: auto;
+}
+
+.promocao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding-bottom: 40px;
+}
+
+.cabecalho {
+  padding-left: 80px;
+}
+
+.quantidade {
+  padding-right: 80px;
+}
+
+.main-section {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main-section div {
+  height: 25rem;
+}
+
+.main-section img {
+}
+
+.main-section img:hover {
+  background-color: green;
+  opacity: 0.5;
+}
+
+span {
+  font-weight: bold;
+  color: #5ca720;
+}
+
+button {
+  background-color: #5ca720;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 25px;
+  cursor: pointer;
+}
+
+.footer-funcoes {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-funcoes {
+  padding-left: 80px;
+  text-decoration: none;
+}
+
+.f-funcoes2 {
+  padding-right: 80px;
+}
+
+.icones-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 23px;
+}
+
+.icon-footer {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 80px;
+}
+
+.icon-footer img {
+  width: 30%;
+  display: flex;
+  justify-content: ;
+}
+
+.icon-footer2 {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 80px;
+}
+
+.icon-footer2 img {
+  width: 15%;
+}
+
+footer {
+  background-color: #f0f0f0;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 460px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav {
+    height: 50px;
+  }
+
+  nav img {
+    margin: 5px;
+    height: 18px;
+  }
+
+  .selfcare {
+    padding-left: 20px;
+  }
+
+  .banner {
+    display: block;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .promocao {
+    display: flex;
+    padding-bottom: 15px;
+    justify-content: space-between;
+  }
+
+  .main-section div {
+    width: 60vw;
+    height: 35vh;
+  }
+
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    align-items: center;
+  }
+
+  .main-section img {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  span {
+    font-weight: bold;
+    color: #5ca720;
+  }
+
+  button {
+    background-color: #5ca720;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 20px;
+    cursor: pointer;
+  }
+}
